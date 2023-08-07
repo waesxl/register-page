@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive; 
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 5px solid rgb(90, 133, 90);
+    border-radius: 3px;
+}
+
+.header {
+    display: flex;
+    margin-top: 150px;
+    align-items: center
+}
+
+.image {
+    width: 400px;
+}
+
+.register-wrapper {
+    margin-left: 50px;
+}
+
+.header-wrapper {
+    margin-bottom: 50px;
+}
+
+.header-wrapper>p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.header-title {
+    margin-bottom: 25px;
+    font-size: 26px;
+    width: 700px;
+}
+
+form {
+    height: 300px;
+    width: 600px;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-top: 20px;
+    width: 200px;
+    height: 20px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+input {
+    display: block;
+    height: 25px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.footer-register {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.btn-submit {
+    width: 250px;
+    padding: 15px;
+    background-color: rgb(90, 133, 90);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+}
+
+.login {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-login {
+    border: none;
+    color: rgb(90, 133, 90);
+    background-color: none;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.background-image {
+    position: absolute;
+    height: 200px;
+    width: 598px;
+    background-color: black;
+    border: 1px solid black;
+    top: 25%;
+    opacity: 0.3;
+}
+
+.notification {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: brown;
+    margin-right: 5px;
+}
